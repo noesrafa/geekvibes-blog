@@ -1,6 +1,6 @@
 export default function Hero() {
   return (
-    <div className="bg-[url('/background.png')] bg-cover h-[800px] p-10 xl:p-0">
+    <div className="bg-[url('/background.webp')] bg-cover h-[800px] p-10 xl:p-0">
       <div className="
         flex flex-col items-center md:flex-row gap-10
          pt-36 justify-between max-w-screen-xl m-auto">
@@ -31,7 +31,7 @@ export default function Hero() {
           </div>
         </div>
         <div className="w-[320px] md:w-[650px] hidden md:block">
-          <img  src="/hero.png" alt="hero" />
+          <img  src="/hero.webp" alt="hero" />
         </div>
       </div>
     </div>
