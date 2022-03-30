@@ -17,7 +17,7 @@ export default function Content() {
     const fetchPosts = await getPosts();
     setPosts(fetchPosts);
     setFeatured(fetchPosts.filter((post) => post.node.featuredPost));
-    console.log("Hola", featured);
+    // console.log("Hola", featured);
   }, []);
 
   function parseDate(date) {
