@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    font-family: 'poppins', sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.blog-logo-svg {
+    height: 30px;
+}
+
+.blog-logo {
+    font-family: 'Nunito';
+    font-size: 20px;
+    font-weight: 300;
+    color: #65ffa3;
+}
+
+.nunito {
+    font-family: 'nunito';
+}
+
+.scrolled {
+    background-color: transparent;
+    transition: 200ms;
+}
+
+.scrolled {
+    background: #202124;
+    transition: 300ms;
+}
+
+
+
+.blured {
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 4px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.box-shadow {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.wave {
+    position: absolute;
+    top: 0;
+    background-image: url('/waves.svg');
+    background-repeat: repeat-x;
+    position: absolute;
+    background-size: auto 40px;
+    top: -40px;
+    width: 100vw;
+    height: 40px;
+}

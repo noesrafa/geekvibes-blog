@@ -1,0 +1,1 @@
+export const api_endpoint = 'https://api-us-west-2.graphcms.com/v2/cl1c7mvpw2zxa01z3cczn9f0u/master'
